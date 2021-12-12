@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bhasha</string>
+    <string name="FAIL_TO_CONNECT_SERVER_ERROR_MESSAGE">সার্ভার সংযোগ বিচ্ছিন্ন হয়েছে। দয়া করে মোবাইলের ইন্টারনেট সংযোগ চেক করুন।</string>
+    <string name="FAIL_TO_DETECT_FACE_ERROR_MESSAGE">আপনার মুখ চিহ্নিত করা যায়নি। লক্ষ রাখবেন যেন সম্পূর্ণ মুখ সামনে থাকে এবং পর্যাপ্ত আলো পাওয়া যায়।</string>
+    <string name="FAIL_TO_RESPONSE_ERROR_MESSAGE">এই মুহূর্তে এপের সেবা বন্ধ রয়েছে। কিছুক্ষণ পর আবার চেষ্টা করুন। ধন্যবাদ।</string>
+    <string name="IN_PROGRESS_LABEL">চলছে...</string>
+    <string name="FIXED_VIDEO_RECORDING_DURATION_IN_MILLISECONDS">3000</string>
+    <string name="WELCOME_MESSAGE">ভাষা অ্যাপে আপনাকে স্বাগতম।</string>
+    <string name="VERSION">version 0.0.0</string>
+</resources>

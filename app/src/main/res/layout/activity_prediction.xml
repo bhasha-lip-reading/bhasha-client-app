@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PredictionActivity"
+    android:padding="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/predictionButton1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_button_on_rest"
+            android:text="এবার বেশ গরম পরেছে"
+            android:textSize="25dp"
+            android:onClick="playAudio1"/>
+
+        <Button
+            android:id="@+id/predictionButton2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_button_on_rest"
+            android:text="আজ ক্লাস নেই"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:onClick="playAudio2"/>
+
+        <Button
+            android:id="@+id/predictionButton3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_button_on_rest"
+            android:text="ক্ষুধা লেগেছে"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:onClick="playAudio3"/>
+
+        <Button
+            android:id="@+id/predictionButton4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_button_on_rest"
+            android:text="গরম পরেছে"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:onClick="playAudio4"/>
+
+        <Button
+            android:id="@+id/predictionButton5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_button_on_rest"
+            android:text="ডাক্তারের কাছে যাব"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:onClick="playAudio5"/>
+
+        <Button
+            android:id="@+id/predictionButton6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_button_on_rest"
+            android:text="ডাক্তারের কাছে যাব"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:onClick="playAudio6"/>
+
+        <Button
+            android:id="@+id/predictionButton7"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_button_on_rest"
+            android:text="ডাক্তারের কাছে যাব"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:onClick="playAudio7"/>
+
+        <Button
+            android:id="@+id/predictionButton8"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_button_on_rest"
+            android:text="ডাক্তারের কাছে যাব"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:onClick="playAudio8"/>
+
+        <Button
+            android:id="@+id/predictionButton9"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_button_on_rest"
+            android:text="ডাক্তারের কাছে যাব"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:onClick="playAudio9"/>
+
+        <Button
+            android:id="@+id/predictionButton10"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_button_on_rest"
+            android:text="ডাক্তারের কাছে যাব"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:onClick="playAudio10"/>
+
+    </LinearLayout>
+</ScrollView>

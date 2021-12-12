@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DatasetActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.camera.view.CameraView
+            android:id="@+id/cameraViewFinder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/timeView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="00:00"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/pink"/>
+
+            <TextView
+                android:id="@+id/sentenceView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="say the sentence"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:background="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/retakeButton"
+                app:backgroundTint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="35dp"
+                android:src="@drawable/ic_reset_button"
+                app:fabCustomSize="65dp"
+                app:maxImageSize="65dp"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/startRecordButton"
+                app:backgroundTint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_camera_button"
+                android:layout_centerInParent="true"
+                app:fabCustomSize="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                app:maxImageSize="80dp"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/stopRecordButton"
+                app:backgroundTint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/ic_stop_camera_button"
+                app:fabCustomSize="80dp"
+                app:maxImageSize="80dp"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/flipCameraButton"
+                app:backgroundTint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_flip_camera_button"
+                app:fabCustomSize="65dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="35dp"
+                app:maxImageSize="65dp"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/predictionButton"
+                app:backgroundTint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_predict_button"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:layout_alignParentBottom="true"
+                app:fabCustomSize="65dp"
+                android:layout_marginBottom="35dp"
+                app:maxImageSize="65dp"/>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
